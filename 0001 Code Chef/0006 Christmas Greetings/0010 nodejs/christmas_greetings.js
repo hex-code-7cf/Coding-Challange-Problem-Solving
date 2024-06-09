@@ -8,9 +8,9 @@ const rl = readline.createInterface({
 rl.question('',(input)=>{
     day = parseInt(input);
     if(day == 25){
-        console.log("YES");
+        console.log("CHRISTMAS");
     }else{
-        console.log("NO");
+        console.log("ORDINARY");
     }
     rl.close();
 })
